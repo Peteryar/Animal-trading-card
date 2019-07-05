@@ -1,0 +1,107 @@
+
+main{
+    display:grid;
+    grid-template: 60% 40% /30% 70%;
+    background-color:#111D2C;
+}   
+#sec-left{
+    display:grid;
+    grid-template-rows:20% 10% 10% 10% 10% 40%;
+    grid-column:1/2;
+    grid-row:1/3;
+    border-right:solid #000 4px;
+}
+.dashbord-icon-con{
+    background-color:#C3BCBC;
+}
+#dash{
+    background-color:#111D2C;
+    color:#fff;
+}
+#dashbord-icon3{
+    background-color:rgb(107, 102, 102)
+}
+.dashbord{
+    position:relative;
+    top:21px;
+    padding-left:20px;
+    width:50px;
+    height:50px;
+}
+.dashbord-icon{
+    position: relative;
+    top:21px;
+    padding-left:80px;
+    height:50px;
+    width:50px;
+}
+.nav-name{
+    position:relative;
+    left:150px;
+    bottom:30px;
+   
+}
+#sec-right{
+    display:grid;
+    grid-template:1fr 1fr/10% 80% 10%;
+    grid-column:2/3;
+    grid-row:1/3;
+    padding-top:20px;
+    
+    }
+    #prev{
+        position: relative;
+        bottom:150px;
+        grid-column:1/2;
+        grid-row:2/3;
+        padding-left:20px;
+        
+    }
+    #next{
+        position: relative;
+        bottom:150px;
+        grid-column:3/4;
+        grid-row:2/3;
+        padding-left:45px;
+    }
+    #card{
+       border-top-right-radius: 50px;
+       border-top-left-radius:50px;
+        grid-column:2/3;
+        grid-row:1/2;
+    }
+    #tag{
+        position:relative;
+        right:40px;
+        color:#fff;
+    }
+    #ani-name{
+        grid-column:1/3;
+        grid-row:1/2;
+    position:relative;
+    top:320px;
+    left:120px;
+    color:white;
+    }
+    #details{
+    background-color:#C3BCBC;
+    grid-row:2/3;
+    grid-column:2/3;
+    height:220px;
+    width:770px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    }
+    .detail{
+        padding-left:50px;
+    }
+    #buy-button{
+        margin-left:45%;
+        padding:5px 20px;
+        background-color:#111D2C;
+        color:#fff;
+        border-radius:20px;
+    }
+    em{
+        padding-left:20px;
+    }
